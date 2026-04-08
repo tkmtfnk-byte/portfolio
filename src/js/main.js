@@ -133,6 +133,14 @@ function initAnimations() {
     });
   });
 
+  // Process steps
+  gsap.utils.toArray(".process-step").forEach((el, i) => {
+    gsap.from(el, {
+      opacity: 0, y: 30, duration: 0.6, delay: i * 0.1,
+      scrollTrigger: { trigger: el, start: "top 88%" }
+    });
+  });
+
   // Work cards
   gsap.utils.toArray(".work-card").forEach((el, i) => {
     gsap.from(el, {
