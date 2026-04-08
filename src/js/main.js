@@ -84,6 +84,7 @@ function initAnimations() {
     .from(".hero-tag", { opacity: 0, y: 20, duration: 0.6 })
     .from(".hero-name", { opacity: 0, y: 30, duration: 0.7 }, "-=0.3")
     .from(".hero-main", { opacity: 0, y: 20, duration: 0.6 }, "-=0.3")
+    .from(".hero-main2", { opacity: 0, y: 20, duration: 0.6 }, "-=0.4")
     .from(".hero-sub", { opacity: 0, y: 20, duration: 0.6 }, "-=0.3")
     .from(".hero-cta", { opacity: 0, y: 20, duration: 0.6 }, "-=0.3")
     .from(".hero-scroll", { opacity: 0, duration: 0.6 }, "-=0.1");

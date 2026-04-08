@@ -7,7 +7,8 @@ const translations = {
     "nav.contact": "Contact",
 
     "hero.tag": "Backend Engineer",
-    "hero.main": "設計から運用まで、一気通貫で支えるバックエンドエンジニア",
+    "hero.main": "Laravel · PHP · WordPress",
+    "hero.main2": "バックエンド開発、設計から運用まで対応",
     "hero.sub": "PHP / Laravel / WordPress — ECサイト・メディア・基幹システムの改修・拡張をお任せください",
     "hero.cta.works": "実績を見る",
     "hero.cta.contact": "お問い合わせ",
@@ -83,7 +84,8 @@ const translations = {
     "nav.contact": "Contact",
 
     "hero.tag": "Backend Engineer",
-    "hero.main": "Full-Cycle Backend Engineer — Laravel & PHP Specialist with 4+ Years",
+    "hero.main": "Laravel · PHP · WordPress",
+    "hero.main2": "Backend Engineer — Design through Operations",
     "hero.sub": "PHP · Laravel · AWS · Docker — EC sites, media platforms, API integrations. I modernize what you already have.",
     "hero.cta.works": "View Works",
     "hero.cta.contact": "Contact Me",

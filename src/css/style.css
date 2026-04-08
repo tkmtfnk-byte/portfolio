@@ -283,11 +283,18 @@ section { padding: 6rem 0; }
   height: 100%;
 }
 .hero-main {
-  font-size: clamp(1rem, 2.5vw, 1.35rem);
-  font-weight: 500;
+  font-size: clamp(1.1rem, 2.8vw, 1.5rem);
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.hero-main2 {
+  font-size: clamp(0.95rem, 2.2vw, 1.2rem);
+  font-weight: 400;
   color: var(--text);
   margin-bottom: 0.75rem;
-  line-height: 1.5;
 }
 .hero-sub {
   font-size: clamp(0.9rem, 2vw, 1.1rem);
